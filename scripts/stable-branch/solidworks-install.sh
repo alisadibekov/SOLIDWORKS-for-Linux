@@ -73,7 +73,7 @@ elif VERB="$( which dnf )" 2> /dev/null; then
    sudo dnf install dialog wmctrl
 elif VERB="$( which pacman )" 2> /dev/null; then
    echo "Arch-based"
-   sudo pacman -S --needed dialog wmctrl
+   sudo pacman -S dialog wmctrl
 elif VERB="$( which zypper )" 2> /dev/null; then
    echo "openSUSE-based"
    su -c 'zypper up && zypper install dialog wmctrl'
