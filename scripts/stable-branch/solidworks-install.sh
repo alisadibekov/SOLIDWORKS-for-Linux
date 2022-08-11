@@ -299,7 +299,7 @@ esac
 }
 
 function archlinux-2 {
-   sudo pacman -Syu --needed wine wine-mono wine_gecko winetricks p7zip curl cabextract samba ppp
+   sudo pacman -S --needed wine wine-mono wine_gecko winetricks p7zip curl cabextract samba ppp
 }
    
 function debian-based-1 {
